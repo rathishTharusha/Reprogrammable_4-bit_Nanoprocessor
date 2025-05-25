@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Webtalk v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun May 25 09:16:48 2025
+# Process ID: 11176
+# Current directory: C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.sim/sim_1/behav/xsim/xsim.dir/Processor_4bit_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/This -notrace
+invalid command name "[4904:337C][2025-05-11T18:48:30]i001:"
+    while executing
+"[4904:337C][2025-05-11T18:48:30]i001: Burn v3.14.1.8722, Windows v10.0 (Build 22631: Service Pack 0), path: C:\WINDOWS\Temp\{9E0BA92B-FF76-4814-A4D1-9..."
+    (file "C:/Users/This" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Sun May 25 09:16:48 2025...

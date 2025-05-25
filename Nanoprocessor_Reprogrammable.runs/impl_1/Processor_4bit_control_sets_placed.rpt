@@ -1,0 +1,99 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
+| Date         : Sun May 25 09:10:59 2025
+| Host         : Rathish running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Processor_4bit_control_sets_placed.rpt
+| Design       : Processor_4bit
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    24 |
+| Unused register locations in slices containing registers |   106 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            2 |
+|      2 |            1 |
+|      3 |            1 |
+|      4 |            7 |
+|      5 |            1 |
+|      6 |            1 |
+|      7 |            1 |
+|      9 |            1 |
+|     10 |            2 |
+|     12 |            5 |
+|     15 |            1 |
+|    16+ |            1 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              12 |            8 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              50 |           15 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               3 |            2 |
+| Yes          | Yes                   | No                     |             117 |           46 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+---------------------------------+-----------------------------------------+------------------+----------------+
+|  Clock Signal  |          Enable Signal          |             Set/Reset Signal            | Slice Load Count | Bel Load Count |
++----------------+---------------------------------+-----------------------------------------+------------------+----------------+
+|  Clk_IBUF_BUFG |                                 | IO_System_0_0/an_reg[3]_1               |                1 |              1 |
+|  Clk_IBUF_BUFG |                                 | IO_System_0_0/an[2]_i_1_n_0             |                1 |              1 |
+|  Clk_IBUF_BUFG |                                 | IO_System_0_0/an_reg[3]_0               |                1 |              2 |
+|  clk_div_BUFG  | Program_counter_0/enable        | Res_IBUF                                |                2 |              3 |
+|  clk_div_BUFG  | Program_RAM_0/REG_12bit_3/En[6] | ResRB_IBUF                              |                2 |              4 |
+|  clk_div_BUFG  | Program_RAM_0/REG_12bit_3/En[3] | ResRB_IBUF                              |                1 |              4 |
+|  clk_div_BUFG  | Program_RAM_0/REG_12bit_3/En[4] | ResRB_IBUF                              |                1 |              4 |
+|  clk_div_BUFG  | Program_RAM_0/REG_12bit_3/En[2] | ResRB_IBUF                              |                1 |              4 |
+|  clk_div_BUFG  | Program_RAM_0/REG_12bit_3/En[0] | ResRB_IBUF                              |                1 |              4 |
+|  clk_div_BUFG  | Program_RAM_0/REG_12bit_3/En[1] | ResRB_IBUF                              |                1 |              4 |
+|  clk_div_BUFG  | Program_RAM_0/REG_12bit_3/En[5] | ResRB_IBUF                              |                1 |              4 |
+|  Clk_IBUF_BUFG |                                 |                                         |                3 |              5 |
+|  Clk_IBUF_BUFG |                                 | IO_System_0_0/seg[5]_i_1_n_0            |                1 |              6 |
+|  clk_div_BUFG  |                                 |                                         |                5 |              7 |
+|  clk_div_BUFG  | Program_counter_0/Y_reg[1]      | ResRAM_IBUF                             |                5 |              9 |
+|  clk_div_BUFG  | Program_counter_0/Y_reg[0]_0    | ResRAM_IBUF                             |                3 |             10 |
+|  clk_div_BUFG  | Program_counter_0/Y_reg[0]      | ResRAM_IBUF                             |                5 |             10 |
+|  clk_div_BUFG  | Program_counter_0/Y_reg[0]_4    | ResRAM_IBUF                             |                5 |             12 |
+|  clk_div_BUFG  | Program_counter_0/Y_reg[0]_3    | ResRAM_IBUF                             |                6 |             12 |
+|  clk_div_BUFG  | Program_counter_0/Y_reg[0]_1    | ResRAM_IBUF                             |                4 |             12 |
+|  clk_div_BUFG  | Program_counter_0/Y_reg[0]_2    | ResRAM_IBUF                             |                6 |             12 |
+|  clk_div_BUFG  | Program_counter_0/Y_reg[1]_0    | ResRAM_IBUF                             |                4 |             12 |
+|  Clk_IBUF_BUFG |                                 | IO_System_0_0/refresh_count[15]_i_1_n_0 |                4 |             15 |
+|  Clk_IBUF_BUFG |                                 | Slow_Clock_0/clk_div_0                  |                7 |             25 |
++----------------+---------------------------------+-----------------------------------------+------------------+----------------+
+
+

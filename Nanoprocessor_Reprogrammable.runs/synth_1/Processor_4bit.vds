@@ -2,8 +2,8 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Sun May 25 09:09:03 2025
-# Process ID: 8504
+# Start of session at: Mon May 26 12:03:52 2025
+# Process ID: 25188
 # Current directory: C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.runs/synth_1
 # Command line: vivado.exe -log Processor_4bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Processor_4bit.tcl
 # Log file: C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.runs/synth_1/Processor_4bit.vds
@@ -15,53 +15,53 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 21620 
+INFO: Helper process launched with PID 2080 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 435.426 ; gain = 96.105
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 435.949 ; gain = 96.492
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'Processor_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:50]
-INFO: [Synth 8-3491] module 'Slow_Clock' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Slow_Clock.vhd:34' bound to instance 'Slow_Clock_0' of component 'Slow_Clock' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:150]
+INFO: [Synth 8-3491] module 'Slow_Clock' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Slow_Clock.vhd:34' bound to instance 'Slow_Clock_0' of component 'Slow_Clock' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:151]
 INFO: [Synth 8-638] synthesizing module 'Slow_Clock' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Slow_Clock.vhd:39]
 INFO: [Synth 8-256] done synthesizing module 'Slow_Clock' (1#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Slow_Clock.vhd:39]
-INFO: [Synth 8-3491] module 'Register_Bank' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:34' bound to instance 'Register_Bank_0' of component 'Register_Bank' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:156]
-INFO: [Synth 8-638] synthesizing module 'Register_Bank' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:42]
-INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd:34' bound to instance 'Decoder_3_to_8_0' of component 'Decoder_3_to_8' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:62]
+INFO: [Synth 8-3491] module 'Register_Bank' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:34' bound to instance 'Register_Bank_0' of component 'Register_Bank' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:157]
+INFO: [Synth 8-638] synthesizing module 'Register_Bank' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:43]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd:34' bound to instance 'Decoder_3_to_8_0' of component 'Decoder_3_to_8' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:63]
 INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd:40]
 INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_2_to_4.vhd:34' bound to instance 'Decoder_2_to_4_0' of component 'Decoder_2_to_4' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd:54]
 INFO: [Synth 8-638] synthesizing module 'Decoder_2_to_4' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_2_to_4.vhd:40]
 INFO: [Synth 8-256] done synthesizing module 'Decoder_2_to_4' (2#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_2_to_4.vhd:40]
 INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_2_to_4.vhd:34' bound to instance 'Decoder_2_to_4_1' of component 'Decoder_2_to_4' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd:61]
 INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (3#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd:40]
-INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG0' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:69]
+INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG0' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:70]
 INFO: [Synth 8-638] synthesizing module 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:42]
 INFO: [Synth 8-256] done synthesizing module 'REG' (4#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:42]
-INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG1' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:78]
-INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG2' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:87]
-INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG3' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:96]
-INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG4' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:105]
-INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG5' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:114]
-INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG6' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:123]
-INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG7' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:132]
-INFO: [Synth 8-256] done synthesizing module 'Register_Bank' (5#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:42]
-INFO: [Synth 8-3491] module 'MUX_8_to_1_4bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_4bit.vhd:34' bound to instance 'MUX_8_to_1_4bit_0' of component 'MUX_8_to_1_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:172]
+INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG1' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:79]
+INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG2' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:88]
+INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG3' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:97]
+INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG4' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:106]
+INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG5' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:115]
+INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG6' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:124]
+INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG7' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:133]
+INFO: [Synth 8-256] done synthesizing module 'Register_Bank' (5#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:43]
+INFO: [Synth 8-3491] module 'MUX_8_to_1_4bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_4bit.vhd:34' bound to instance 'MUX_8_to_1_4bit_0' of component 'MUX_8_to_1_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:174]
 INFO: [Synth 8-638] synthesizing module 'MUX_8_to_1_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_4bit.vhd:47]
 INFO: [Synth 8-226] default block is never used [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_4bit.vhd:53]
 INFO: [Synth 8-256] done synthesizing module 'MUX_8_to_1_4bit' (6#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_4bit.vhd:47]
-INFO: [Synth 8-3491] module 'MUX_8_to_1_4bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_4bit.vhd:34' bound to instance 'MUX_8_to_1_4bit_1' of component 'MUX_8_to_1_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:186]
-INFO: [Synth 8-3491] module 'MUX_8_to_1_4bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_4bit.vhd:34' bound to instance 'MUX_8_to_1_4bit_2' of component 'MUX_8_to_1_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:200]
-INFO: [Synth 8-3491] module 'AddSub_4bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/AddSub_4bit.vhd:34' bound to instance 'AddSub_4bit_0_0' of component 'AddSub_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:214]
+INFO: [Synth 8-3491] module 'MUX_8_to_1_4bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_4bit.vhd:34' bound to instance 'MUX_8_to_1_4bit_1' of component 'MUX_8_to_1_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:188]
+INFO: [Synth 8-3491] module 'MUX_8_to_1_4bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_4bit.vhd:34' bound to instance 'MUX_8_to_1_4bit_2' of component 'MUX_8_to_1_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:202]
+INFO: [Synth 8-3491] module 'AddSub_4bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/AddSub_4bit.vhd:34' bound to instance 'AddSub_4bit_0_0' of component 'AddSub_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:216]
 INFO: [Synth 8-638] synthesizing module 'AddSub_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/AddSub_4bit.vhd:44]
 INFO: [Synth 8-256] done synthesizing module 'AddSub_4bit' (7#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/AddSub_4bit.vhd:44]
-INFO: [Synth 8-3491] module 'MUX_2_to_1_4bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_2_to_1_4bit.vhd:34' bound to instance 'MUX_2_to_1_4bit_0' of component 'MUX_2_to_1_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:225]
+INFO: [Synth 8-3491] module 'MUX_2_to_1_4bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_2_to_1_4bit.vhd:34' bound to instance 'MUX_2_to_1_4bit_0' of component 'MUX_2_to_1_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:227]
 INFO: [Synth 8-638] synthesizing module 'MUX_2_to_1_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_2_to_1_4bit.vhd:41]
 INFO: [Synth 8-256] done synthesizing module 'MUX_2_to_1_4bit' (8#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_2_to_1_4bit.vhd:41]
-INFO: [Synth 8-3491] module 'Instruction_Decoder' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Instruction_Decoder.vhd:34' bound to instance 'Instruction_Decoder_0' of component 'Instruction_Decoder' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:233]
+INFO: [Synth 8-3491] module 'Instruction_Decoder' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Instruction_Decoder.vhd:34' bound to instance 'Instruction_Decoder_0' of component 'Instruction_Decoder' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:235]
 INFO: [Synth 8-638] synthesizing module 'Instruction_Decoder' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Instruction_Decoder.vhd:47]
 INFO: [Synth 8-256] done synthesizing module 'Instruction_Decoder' (9#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Instruction_Decoder.vhd:47]
-INFO: [Synth 8-3491] module 'Program_counter' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/Program_counter.vhd:34' bound to instance 'Program_counter_0' of component 'Program_counter' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:247]
+INFO: [Synth 8-3491] module 'Program_counter' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/Program_counter.vhd:34' bound to instance 'Program_counter_0' of component 'Program_counter' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:249]
 INFO: [Synth 8-638] synthesizing module 'Program_counter' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/Program_counter.vhd:44]
 INFO: [Synth 8-256] done synthesizing module 'Program_counter' (10#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/Program_counter.vhd:44]
-INFO: [Synth 8-3491] module 'Program_RAM' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Program_RAM.vhd:34' bound to instance 'Program_RAM_0' of component 'Program_RAM' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:257]
+INFO: [Synth 8-3491] module 'Program_RAM' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Program_RAM.vhd:34' bound to instance 'Program_RAM_0' of component 'Program_RAM' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:259]
 INFO: [Synth 8-638] synthesizing module 'Program_RAM' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Program_RAM.vhd:43]
 INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd:34' bound to instance 'Decoder_3_to_8_0' of component 'Decoder_3_to_8' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Program_RAM.vhd:78]
 INFO: [Synth 8-3491] module 'MUX_8_to_1_12bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_12bit.vhd:34' bound to instance 'MUX_8_to_1_12bit_0' of component 'MUX_8_to_1_12bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Program_RAM.vhd:84]
@@ -79,12 +79,12 @@ INFO: [Synth 8-3491] module 'REG_12bit' declared at 'C:/Users/This PC/vivado_pro
 INFO: [Synth 8-3491] module 'REG_12bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG_12bit.vhd:34' bound to instance 'REG_12bit_6' of component 'REG_12bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Program_RAM.vhd:151]
 INFO: [Synth 8-3491] module 'REG_12bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG_12bit.vhd:34' bound to instance 'REG_12bit_7' of component 'REG_12bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Program_RAM.vhd:160]
 INFO: [Synth 8-256] done synthesizing module 'Program_RAM' (13#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Program_RAM.vhd:43]
-INFO: [Synth 8-3491] module 'IO_System' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/IO_System.vhd:34' bound to instance 'IO_System_0_0' of component 'IO_System' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:265]
+INFO: [Synth 8-3491] module 'IO_System' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/IO_System.vhd:34' bound to instance 'IO_System_0_0' of component 'IO_System' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:267]
 INFO: [Synth 8-638] synthesizing module 'IO_System' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/IO_System.vhd:44]
 INFO: [Synth 8-256] done synthesizing module 'IO_System' (14#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/IO_System.vhd:44]
 INFO: [Synth 8-256] done synthesizing module 'Processor_4bit' (15#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:50]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 491.840 ; gain = 152.520
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 491.309 ; gain = 151.852
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -97,10 +97,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 491.840 ; gain = 152.520
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 491.309 ; gain = 151.852
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 491.840 ; gain = 152.520
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 491.309 ; gain = 151.852
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -116,28 +116,28 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 823.207 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 822.316 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 823.207 ; gain = 483.887
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 822.316 ; gain = 482.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 823.207 ; gain = 483.887
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 822.316 ; gain = 482.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 823.207 ; gain = 483.887
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 822.316 ; gain = 482.859
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "clk_div" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "digit_select" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5544] ROM "Seg7" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 823.207 ; gain = 483.887
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 822.316 ; gain = 482.859
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -265,7 +265,7 @@ INFO: [Synth 8-3886] merging instance 'Register_Bank_0/REG0/Y_reg[0]' (FDR) to '
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Register_Bank_0/REG0/Y_reg[3] )
 WARNING: [Synth 8-3332] Sequential element (Register_Bank_0/REG0/Y_reg[3]) is unused and will be removed from module Processor_4bit.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 823.207 ; gain = 483.887
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 822.316 ; gain = 482.859
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -277,13 +277,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 823.207 ; gain = 483.887
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 822.316 ; gain = 482.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 826.230 ; gain = 486.910
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 826.855 ; gain = 487.398
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -295,7 +295,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 837.082 ; gain = 497.762
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 837.773 ; gain = 498.316
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -319,7 +319,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 837.082 ; gain = 497.762
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 837.773 ; gain = 498.316
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -332,7 +332,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 837.082 ; gain = 497.762
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 837.773 ; gain = 498.316
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -344,25 +344,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 837.082 ; gain = 497.762
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 837.773 ; gain = 498.316
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 837.082 ; gain = 497.762
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 837.773 ; gain = 498.316
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 837.082 ; gain = 497.762
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 837.773 ; gain = 498.316
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 837.082 ; gain = 497.762
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 837.773 ; gain = 498.316
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -382,9 +382,9 @@ Report Cell Usage:
 |2     |CARRY4 |    10|
 |3     |LUT1   |     4|
 |4     |LUT2   |     5|
-|5     |LUT3   |    13|
+|5     |LUT3   |     6|
 |6     |LUT4   |    22|
-|7     |LUT5   |    30|
+|7     |LUT5   |    37|
 |8     |LUT6   |    47|
 |9     |MUXF7  |    21|
 |10    |FDCE   |     3|
@@ -421,11 +421,11 @@ Report Instance Areas:
 |21    |  Slow_Clock_0      |Slow_Clock      |    41|
 +------+--------------------+----------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 837.082 ; gain = 497.762
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 837.773 ; gain = 498.316
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:29 . Memory (MB): peak = 837.082 ; gain = 166.395
-Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 837.082 ; gain = 497.762
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 837.773 ; gain = 167.309
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 837.773 ; gain = 498.316
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 53 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -437,8 +437,8 @@ No Unisim elements were transformed.
 INFO: [Common 17-83] Releasing license: Synthesis
 85 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 837.082 ; gain = 509.711
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 837.773 ; gain = 510.289
 INFO: [Common 17-1381] The checkpoint 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.runs/synth_1/Processor_4bit.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Processor_4bit_utilization_synth.rpt -pb Processor_4bit_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 837.082 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Sun May 25 09:09:53 2025...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 837.773 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon May 26 12:04:30 2025...

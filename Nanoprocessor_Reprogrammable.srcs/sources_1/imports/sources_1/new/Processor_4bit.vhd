@@ -58,6 +58,7 @@ end COMPONENT;
 COMPONENT Register_Bank
     Port ( Data_in : in STD_LOGIC_VECTOR (3 downto 0);
            RegEn : in STD_LOGIC_VECTOR (2 downto 0);
+           RegWEn : in STD_LOGIC;
            Res : in STD_LOGIC;
            Clk : in STD_LOGIC;
            Data_out_0, Data_out_1, Data_out_2, Data_out_3, Data_out_4, Data_out_5, Data_out_6, Data_out_7 : out STD_LOGIC_VECTOR (3 downto 0));
@@ -140,7 +141,7 @@ COMPONENT IO_System
            seg : out STD_LOGIC_VECTOR (6 downto 0));
 end COMPONENT;
 
-SIGNAl LoadSel, Op, JFlag, Over, Zero, Overflow, Slow_clk, Cout: std_logic;
+SIGNAl LoadSel, RegWEn, Op, JFlag, Over, Zero, Overflow, Slow_clk, Cout: std_logic;
 SIGNAL RegEn, RegSelA, RegSelB, JAdr, Address, Cnt_in, Cnt_out : std_logic_vector(2 downto 0);
 SIGNAL D0, D1, D2, D3, D4, D5, D6, D7, Data_in, RegA, RegB, RegS, ImVal, REG : std_logic_vector(3 downto 0);
 SIGNAL Instruction : std_logic_vector(11 downto 0);
@@ -157,6 +158,7 @@ Register_Bank_0: Register_Bank
     port map( 
     Data_in => Data_in,
     RegEn => RegEn,
+    RegWEn => RegWEn,
     Res => ResRB,
     Clk => Slow_clk,
     Data_out_0 => D0, 
@@ -271,6 +273,8 @@ IO_System_0_0: IO_System
            an => An_out,
            seg  => Data_seg
 );
+
+RegWEn <= Run OR Step;
 
 Flags(0) <= Zero;
 Flags(1) <= Overflow;

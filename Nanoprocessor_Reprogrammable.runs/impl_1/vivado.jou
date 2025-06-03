@@ -2,8 +2,8 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Mon May 26 12:07:06 2025
-# Process ID: 14812
+# Start of session at: Tue Jun  3 10:59:10 2025
+# Process ID: 5800
 # Current directory: C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.runs/impl_1
 # Command line: vivado.exe -log Processor_4bit.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Processor_4bit.tcl -notrace
 # Log file: C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.runs/impl_1/Processor_4bit.vdi

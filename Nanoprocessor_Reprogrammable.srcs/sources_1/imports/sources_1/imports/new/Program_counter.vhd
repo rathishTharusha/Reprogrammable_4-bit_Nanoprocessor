@@ -34,8 +34,6 @@ use IEEE.NUMERIC_STD.ALL;
 entity Program_counter is
     Port ( Clk : in STD_LOGIC;
            Res : in STD_LOGIC;
-           Run : in STD_LOGIC;
-           Step : in STD_LOGIC;
            JFlag : in STD_LOGIC;
            JAdr : in STD_LOGIC_VECTOR (2 downto 0);
            Address : out STD_LOGIC_VECTOR (2 downto 0));
@@ -45,7 +43,6 @@ architecture Behavioral of Program_counter is
     signal PC_reg  : STD_LOGIC_VECTOR(2 downto 0) := "000"; -- 3-bit PC register
     signal PC_next : STD_LOGIC_VECTOR(2 downto 0);           -- Next PC value
     signal PC_inc  : STD_LOGIC_VECTOR(2 downto 0);           -- Incremented PC value
-    signal enable  : STD_LOGIC;                              -- Enable PC update
 begin
     
     -- Incrementer
@@ -54,18 +51,13 @@ begin
     -- 2-way Mux for jump
     PC_next <= JAdr when JFlag = '1' else PC_inc;
     
-    -- Enable logic: Update PC if Run = '1' or Step = '1' on clock edge
-    enable <= Run or Step;
-    
     -- Update PC
     process(Clk, Res)
     begin
         if Res = '1' then
             PC_reg <= "000";
-        elsif rising_edge(Clk) then
-            if enable = '1' then
-                PC_reg <= PC_next;
-            end if;
+        elsif rising_edge(Clk) then            
+            PC_reg <= PC_next;      
         end if;
     end process;
     

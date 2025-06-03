@@ -3,17 +3,15 @@ vhdl xil_defaultlib  \
 "../../../../Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/AddSub_4bit.vhd" \
 "../../../../Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_2_to_4.vhd" \
 "../../../../Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd" \
-"../../../../Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/IO_System.vhd" \
 "../../../../Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Instruction_Decoder.vhd" \
 "../../../../Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_2_to_1_4bit.vhd" \
-"../../../../Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_12bit.vhd" \
 "../../../../Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_4bit.vhd" \
 "../../../../Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd" \
-"../../../../Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Program_RAM.vhd" \
+"../../../../Nanoprocessor_Reprogrammable.srcs/sources_1/imports/new/ProgramROM.vhd" \
 "../../../../Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/Program_counter.vhd" \
 "../../../../Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd" \
-"../../../../Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG_12bit.vhd" \
 "../../../../Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd" \
+"../../../../Nanoprocessor_Reprogrammable.srcs/sources_1/new/Seg7.vhd" \
 "../../../../Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Slow_Clock.vhd" \
 "../../../../Nanoprocessor_Reprogrammable.srcs/sim_1/imports/sim_1/new/Processor_4bit_tb.vhd" \
 

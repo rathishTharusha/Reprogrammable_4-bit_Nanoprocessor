@@ -18,7 +18,6 @@
 -- 
 ----------------------------------------------------------------------------------
 
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -34,17 +33,10 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity Processor_4bit is
     Port ( Clk : in STD_LOGIC;
            Res : in STD_LOGIC;
-           ResRB : in STD_LOGIC;
-           ResRAM : in STD_LOGIC;
-           Run : in STD_LOGIC;
-           Step : in STD_LOGIC;
-           Upload : in STD_LOGIC;
-           Data_write: in STD_LOGIC_VECTOR (11 downto 0);
-           RegSel : in STD_LOGIC_VECTOR (2 downto 0);
-           Command : out STD_LOGIC_VECTOR (11 downto 0);
+           Data : out STD_LOGIC_VECTOR (3 downto 0);
            Data_seg : out STD_LOGIC_VECTOR (6 downto 0);
            An_out: out STD_LOGIC_VECTOR (3 downto 0);
-           Flags : out STD_LOGIC_VECTOR (2 downto 0));
+           Flags : out STD_LOGIC_VECTOR (1 downto 0));
 end Processor_4bit;
 
 architecture Behavioral of Processor_4bit is
@@ -58,7 +50,6 @@ end COMPONENT;
 COMPONENT Register_Bank
     Port ( Data_in : in STD_LOGIC_VECTOR (3 downto 0);
            RegEn : in STD_LOGIC_VECTOR (2 downto 0);
-           RegWEn : in STD_LOGIC;
            Res : in STD_LOGIC;
            Clk : in STD_LOGIC;
            Data_out_0, Data_out_1, Data_out_2, Data_out_3, Data_out_4, Data_out_5, Data_out_6, Data_out_7 : out STD_LOGIC_VECTOR (3 downto 0));
@@ -83,7 +74,6 @@ COMPONENT AddSub_4bit
            Op : in STD_LOGIC;
            Q : out STD_LOGIC_VECTOR (3 downto 0);
            Overflow : out STD_LOGIC;
-           Cout: out STD_LOGIC;
            Zero : out STD_LOGIC);
 end COMPONENT;
 
@@ -107,13 +97,17 @@ COMPONENT Instruction_Decoder
            JAddress : out STD_LOGIC_VECTOR (2 downto 0));
 end COMPONENT;
 
-COMPONENT Program_RAM
+COMPONENT Program_counter
+    Port ( Clk : in STD_LOGIC;
+           Res : in STD_LOGIC;
+           JFlag : in STD_LOGIC;
+           JAdr : in STD_LOGIC_VECTOR (2 downto 0);
+           Address : out STD_LOGIC_VECTOR (2 downto 0));
+end COMPONENT;
+
+COMPONENT ProgramROM 
     Port ( Address : in STD_LOGIC_VECTOR (2 downto 0);
-       Data_write: in STD_LOGIC_VECTOR (11 downto 0);
-       W_en: in STD_LOGIC;
-       Clk: in STD_LOGIC;
-       Res : in STD_LOGIC;
-       Instruction : out STD_LOGIC_VECTOR (11 downto 0));
+           Instruction : out STD_LOGIC_VECTOR (11 downto 0));
 end COMPONENT;
 
 COMPONENT Seg7 
@@ -121,29 +115,10 @@ COMPONENT Seg7
            data_out : out STD_LOGIC_VECTOR (6 downto 0));
 end COMPONENT;
 
-COMPONENT Program_counter
-    Port ( Clk : in STD_LOGIC;
-           Res : in STD_LOGIC;
-           Run : in STD_LOGIC;
-           Step : in STD_LOGIC;
-           JFlag : in STD_LOGIC;
-           JAdr : in STD_LOGIC_VECTOR (2 downto 0);
-           Address : out STD_LOGIC_VECTOR (2 downto 0));
-end COMPONENT;
 
-COMPONENT IO_System
-    Port ( 
-           Clk: in STD_LOGIC;
-           DATA : in STD_LOGIC_VECTOR (3 downto 0);
-           PC : in STD_LOGIC_VECTOR (2 downto 0);
-           REGEN : in STD_LOGIC_VECTOR (2 downto 0);
-           an : out STD_LOGIC_VECTOR (3 downto 0);
-           seg : out STD_LOGIC_VECTOR (6 downto 0));
-end COMPONENT;
-
-SIGNAl LoadSel, RegWEn, Op, JFlag, Over, Zero, Overflow, Slow_clk, Cout: std_logic;
-SIGNAL RegEn, RegSelA, RegSelB, JAdr, Address, Cnt_in, Cnt_out : std_logic_vector(2 downto 0);
-SIGNAL D0, D1, D2, D3, D4, D5, D6, D7, Data_in, RegA, RegB, RegS, ImVal, REG : std_logic_vector(3 downto 0);
+SIGNAl LoadSel, Op, JFlag, Zero, Overflow, Slow_clk: std_logic;
+SIGNAL RegEn, RegSelA, RegSelB, JAdr, Address : std_logic_vector(2 downto 0);
+SIGNAL D0, D1, D2, D3, D4, D5, D6, D7, Data_in, RegA, RegB, RegS, ImVal : std_logic_vector(3 downto 0);
 SIGNAL Instruction : std_logic_vector(11 downto 0);
 
 begin
@@ -158,8 +133,7 @@ Register_Bank_0: Register_Bank
     port map( 
     Data_in => Data_in,
     RegEn => RegEn,
-    RegWEn => RegWEn,
-    Res => ResRB,
+    Res => Res,
     Clk => Slow_clk,
     Data_out_0 => D0, 
     Data_out_1 => D1, 
@@ -199,28 +173,13 @@ MUX_8_to_1_4bit_1: MUX_8_to_1_4bit
     Y => RegA
 );
 
-MUX_8_to_1_4bit_2: MUX_8_to_1_4bit 
-    port map ( 
-    D0 => D0,
-    D1 => D1,
-    D2 => D2,
-    D3 => D3,
-    D4 => D4,
-    D5 => D5,
-    D6 => D6,
-    D7 => D7,
-    Sel => RegSel,
-    Y => REG
-);
-
-AddSub_4bit_0_0: AddSub_4bit
+AddSub_4bit_0: AddSub_4bit
 port map(
     A => RegA,
     B => RegB,
     Op => Op,
     Q => RegS,
     Overflow => Overflow,
-    Cout => Cout,
     Zero => Zero
 );
 
@@ -249,37 +208,26 @@ Instruction_Decoder_0: Instruction_Decoder
 Program_counter_0: Program_counter 
     port map ( Clk => Slow_clk,
            Res => Res,
-           Run => Run,
-           Step => Step,
            JFlag => JFlag,
            JAdr => JAdr,
            Address => Address
            );
 
-Program_RAM_0:Program_RAM 
-    port map ( Address => Address,
-       Data_write => Data_write,
-       W_en => Upload,
-       Clk => Slow_clk,
-       Res => ResRAM,
-       Instruction => Instruction);
-
-IO_System_0_0: IO_System
+ProgramROM_0: ProgramROM  
     port map ( 
-           Clk => Clk,
-           DATA => REG,
-           PC => Address,
-           REGEN => RegSel,
-           an => An_out,
-           seg  => Data_seg
+    Address => Address,
+    Instruction => Instruction
 );
 
-RegWEn <= Run OR Step;
+Seg7_0: Seg7 
+    port map ( 
+    data_in => D1,
+    data_out => Data_seg
+);
 
+An_out <= "1110";
+Data <= D1;
 Flags(0) <= Zero;
 Flags(1) <= Overflow;
-Flags(2) <= RegS(3);
-
-Command <= Instruction;
 
 end Behavioral;

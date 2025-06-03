@@ -37,7 +37,7 @@ entity Slow_Clock is
 end Slow_Clock;
 
 architecture Behavioral of Slow_Clock is
-    -- constant PRESCALER : integer := 2; -- Reduced for simulation
+    --constant PRESCALER : integer := 2; -- Reduced for simulation
     constant PRESCALER : integer := 33554432; -- for FPGA
     signal count : integer range 0 to PRESCALER-1 := 0;
     signal clk_div : std_logic := '0';

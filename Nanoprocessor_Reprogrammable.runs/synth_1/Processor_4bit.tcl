@@ -16,7 +16,6 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_param xicom.use_bs_reader 1
 create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -33,16 +32,14 @@ read_vhdl -library xil_defaultlib {
   {C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/AddSub_4bit.vhd}
   {C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_2_to_4.vhd}
   {C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd}
-  {C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/IO_System.vhd}
   {C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Instruction_Decoder.vhd}
   {C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_2_to_1_4bit.vhd}
-  {C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_12bit.vhd}
   {C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_4bit.vhd}
-  {C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Program_RAM.vhd}
+  {C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/new/ProgramROM.vhd}
   {C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/Program_counter.vhd}
   {C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd}
-  {C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG_12bit.vhd}
   {C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd}
+  {C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/new/Seg7.vhd}
   {C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Slow_Clock.vhd}
   {C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd}
 }

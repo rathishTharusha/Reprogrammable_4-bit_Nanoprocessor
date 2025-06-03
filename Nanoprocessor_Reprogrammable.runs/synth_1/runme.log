@@ -14,76 +14,65 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 2080 
+INFO: Helper process launched with PID 17556 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 435.949 ; gain = 96.492
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 435.398 ; gain = 95.203
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'Processor_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:50]
-INFO: [Synth 8-3491] module 'Slow_Clock' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Slow_Clock.vhd:34' bound to instance 'Slow_Clock_0' of component 'Slow_Clock' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:151]
+INFO: [Synth 8-638] synthesizing module 'Processor_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:42]
+INFO: [Synth 8-3491] module 'Slow_Clock' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Slow_Clock.vhd:34' bound to instance 'Slow_Clock_0' of component 'Slow_Clock' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:126]
 INFO: [Synth 8-638] synthesizing module 'Slow_Clock' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Slow_Clock.vhd:39]
 INFO: [Synth 8-256] done synthesizing module 'Slow_Clock' (1#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Slow_Clock.vhd:39]
-INFO: [Synth 8-3491] module 'Register_Bank' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:34' bound to instance 'Register_Bank_0' of component 'Register_Bank' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:157]
-INFO: [Synth 8-638] synthesizing module 'Register_Bank' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:43]
-INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd:34' bound to instance 'Decoder_3_to_8_0' of component 'Decoder_3_to_8' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:63]
-INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd:40]
-INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_2_to_4.vhd:34' bound to instance 'Decoder_2_to_4_0' of component 'Decoder_2_to_4' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd:54]
+INFO: [Synth 8-3491] module 'Register_Bank' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:33' bound to instance 'Register_Bank_0' of component 'Register_Bank' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:132]
+INFO: [Synth 8-638] synthesizing module 'Register_Bank' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:41]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd:33' bound to instance 'Decoder_3_to_8_0' of component 'Decoder_3_to_8' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd:38]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_2_to_4.vhd:34' bound to instance 'Decoder_2_to_4_0' of component 'Decoder_2_to_4' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd:52]
 INFO: [Synth 8-638] synthesizing module 'Decoder_2_to_4' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_2_to_4.vhd:40]
 INFO: [Synth 8-256] done synthesizing module 'Decoder_2_to_4' (2#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_2_to_4.vhd:40]
-INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_2_to_4.vhd:34' bound to instance 'Decoder_2_to_4_1' of component 'Decoder_2_to_4' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd:61]
-INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (3#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd:40]
-INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG0' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:70]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_2_to_4.vhd:34' bound to instance 'Decoder_2_to_4_1' of component 'Decoder_2_to_4' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd:59]
+WARNING: [Synth 8-3848] Net I1 in module/entity Decoder_3_to_8 does not have driver. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (3#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd:38]
+INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG0' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:66]
 INFO: [Synth 8-638] synthesizing module 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:42]
 INFO: [Synth 8-256] done synthesizing module 'REG' (4#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:42]
-INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG1' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:79]
-INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG2' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:88]
-INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG3' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:97]
-INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG4' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:106]
-INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG5' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:115]
-INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG6' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:124]
-INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG7' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:133]
-INFO: [Synth 8-256] done synthesizing module 'Register_Bank' (5#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:43]
-INFO: [Synth 8-3491] module 'MUX_8_to_1_4bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_4bit.vhd:34' bound to instance 'MUX_8_to_1_4bit_0' of component 'MUX_8_to_1_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:174]
+INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG1' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:75]
+INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG2' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:84]
+INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG3' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:93]
+INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG4' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:102]
+INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG5' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:111]
+INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG6' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:120]
+INFO: [Synth 8-3491] module 'REG' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG.vhd:34' bound to instance 'REG7' of component 'REG' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:129]
+INFO: [Synth 8-256] done synthesizing module 'Register_Bank' (5#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Register_Bank.vhd:41]
+INFO: [Synth 8-3491] module 'MUX_8_to_1_4bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_4bit.vhd:34' bound to instance 'MUX_8_to_1_4bit_0' of component 'MUX_8_to_1_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:148]
 INFO: [Synth 8-638] synthesizing module 'MUX_8_to_1_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_4bit.vhd:47]
 INFO: [Synth 8-226] default block is never used [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_4bit.vhd:53]
 INFO: [Synth 8-256] done synthesizing module 'MUX_8_to_1_4bit' (6#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_4bit.vhd:47]
-INFO: [Synth 8-3491] module 'MUX_8_to_1_4bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_4bit.vhd:34' bound to instance 'MUX_8_to_1_4bit_1' of component 'MUX_8_to_1_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:188]
-INFO: [Synth 8-3491] module 'MUX_8_to_1_4bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_4bit.vhd:34' bound to instance 'MUX_8_to_1_4bit_2' of component 'MUX_8_to_1_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:202]
-INFO: [Synth 8-3491] module 'AddSub_4bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/AddSub_4bit.vhd:34' bound to instance 'AddSub_4bit_0_0' of component 'AddSub_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:216]
-INFO: [Synth 8-638] synthesizing module 'AddSub_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/AddSub_4bit.vhd:44]
-INFO: [Synth 8-256] done synthesizing module 'AddSub_4bit' (7#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/AddSub_4bit.vhd:44]
-INFO: [Synth 8-3491] module 'MUX_2_to_1_4bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_2_to_1_4bit.vhd:34' bound to instance 'MUX_2_to_1_4bit_0' of component 'MUX_2_to_1_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:227]
+INFO: [Synth 8-3491] module 'MUX_8_to_1_4bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_4bit.vhd:34' bound to instance 'MUX_8_to_1_4bit_1' of component 'MUX_8_to_1_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:162]
+INFO: [Synth 8-3491] module 'AddSub_4bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/AddSub_4bit.vhd:34' bound to instance 'AddSub_4bit_0' of component 'AddSub_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:176]
+INFO: [Synth 8-638] synthesizing module 'AddSub_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/AddSub_4bit.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'AddSub_4bit' (7#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/AddSub_4bit.vhd:43]
+INFO: [Synth 8-3491] module 'MUX_2_to_1_4bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_2_to_1_4bit.vhd:34' bound to instance 'MUX_2_to_1_4bit_0' of component 'MUX_2_to_1_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:186]
 INFO: [Synth 8-638] synthesizing module 'MUX_2_to_1_4bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_2_to_1_4bit.vhd:41]
 INFO: [Synth 8-256] done synthesizing module 'MUX_2_to_1_4bit' (8#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_2_to_1_4bit.vhd:41]
-INFO: [Synth 8-3491] module 'Instruction_Decoder' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Instruction_Decoder.vhd:34' bound to instance 'Instruction_Decoder_0' of component 'Instruction_Decoder' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:235]
+INFO: [Synth 8-3491] module 'Instruction_Decoder' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Instruction_Decoder.vhd:34' bound to instance 'Instruction_Decoder_0' of component 'Instruction_Decoder' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:194]
 INFO: [Synth 8-638] synthesizing module 'Instruction_Decoder' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Instruction_Decoder.vhd:47]
 INFO: [Synth 8-256] done synthesizing module 'Instruction_Decoder' (9#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Instruction_Decoder.vhd:47]
-INFO: [Synth 8-3491] module 'Program_counter' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/Program_counter.vhd:34' bound to instance 'Program_counter_0' of component 'Program_counter' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:249]
-INFO: [Synth 8-638] synthesizing module 'Program_counter' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/Program_counter.vhd:44]
-INFO: [Synth 8-256] done synthesizing module 'Program_counter' (10#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/Program_counter.vhd:44]
-INFO: [Synth 8-3491] module 'Program_RAM' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Program_RAM.vhd:34' bound to instance 'Program_RAM_0' of component 'Program_RAM' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:259]
-INFO: [Synth 8-638] synthesizing module 'Program_RAM' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Program_RAM.vhd:43]
-INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd:34' bound to instance 'Decoder_3_to_8_0' of component 'Decoder_3_to_8' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Program_RAM.vhd:78]
-INFO: [Synth 8-3491] module 'MUX_8_to_1_12bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_12bit.vhd:34' bound to instance 'MUX_8_to_1_12bit_0' of component 'MUX_8_to_1_12bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Program_RAM.vhd:84]
-INFO: [Synth 8-638] synthesizing module 'MUX_8_to_1_12bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_12bit.vhd:47]
-INFO: [Synth 8-226] default block is never used [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_12bit.vhd:53]
-INFO: [Synth 8-256] done synthesizing module 'MUX_8_to_1_12bit' (11#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/MUX_8_to_1_12bit.vhd:47]
-INFO: [Synth 8-3491] module 'REG_12bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG_12bit.vhd:34' bound to instance 'REG_12bit_0' of component 'REG_12bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Program_RAM.vhd:97]
-INFO: [Synth 8-638] synthesizing module 'REG_12bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG_12bit.vhd:43]
-INFO: [Synth 8-256] done synthesizing module 'REG_12bit' (12#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG_12bit.vhd:43]
-INFO: [Synth 8-3491] module 'REG_12bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG_12bit.vhd:34' bound to instance 'REG_12bit_1' of component 'REG_12bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Program_RAM.vhd:106]
-INFO: [Synth 8-3491] module 'REG_12bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG_12bit.vhd:34' bound to instance 'REG_12bit_2' of component 'REG_12bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Program_RAM.vhd:115]
-INFO: [Synth 8-3491] module 'REG_12bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG_12bit.vhd:34' bound to instance 'REG_12bit_3' of component 'REG_12bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Program_RAM.vhd:124]
-INFO: [Synth 8-3491] module 'REG_12bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG_12bit.vhd:34' bound to instance 'REG_12bit_4' of component 'REG_12bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Program_RAM.vhd:133]
-INFO: [Synth 8-3491] module 'REG_12bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG_12bit.vhd:34' bound to instance 'REG_12bit_5' of component 'REG_12bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Program_RAM.vhd:142]
-INFO: [Synth 8-3491] module 'REG_12bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG_12bit.vhd:34' bound to instance 'REG_12bit_6' of component 'REG_12bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Program_RAM.vhd:151]
-INFO: [Synth 8-3491] module 'REG_12bit' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/REG_12bit.vhd:34' bound to instance 'REG_12bit_7' of component 'REG_12bit' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Program_RAM.vhd:160]
-INFO: [Synth 8-256] done synthesizing module 'Program_RAM' (13#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Program_RAM.vhd:43]
-INFO: [Synth 8-3491] module 'IO_System' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/IO_System.vhd:34' bound to instance 'IO_System_0_0' of component 'IO_System' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:267]
-INFO: [Synth 8-638] synthesizing module 'IO_System' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/IO_System.vhd:44]
-INFO: [Synth 8-256] done synthesizing module 'IO_System' (14#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/IO_System.vhd:44]
-INFO: [Synth 8-256] done synthesizing module 'Processor_4bit' (15#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:50]
+INFO: [Synth 8-3491] module 'Program_counter' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/Program_counter.vhd:34' bound to instance 'Program_counter_0' of component 'Program_counter' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:208]
+INFO: [Synth 8-638] synthesizing module 'Program_counter' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/Program_counter.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Program_counter' (10#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/imports/new/Program_counter.vhd:42]
+INFO: [Synth 8-3491] module 'ProgramROM' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/new/ProgramROM.vhd:35' bound to instance 'ProgramROM_0' of component 'ProgramROM' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:216]
+INFO: [Synth 8-638] synthesizing module 'ProgramROM' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/new/ProgramROM.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'ProgramROM' (11#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/new/ProgramROM.vhd:40]
+INFO: [Synth 8-3491] module 'Seg7' declared at 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/new/Seg7.vhd:35' bound to instance 'Seg7_0' of component 'Seg7' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:222]
+INFO: [Synth 8-638] synthesizing module 'Seg7' [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/new/Seg7.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Seg7' (12#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/new/Seg7.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Processor_4bit' (13#1) [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Processor_4bit.vhd:42]
+WARNING: [Synth 8-3917] design Processor_4bit has port An_out[3] driven by constant 1
+WARNING: [Synth 8-3917] design Processor_4bit has port An_out[2] driven by constant 1
+WARNING: [Synth 8-3917] design Processor_4bit has port An_out[1] driven by constant 1
+WARNING: [Synth 8-3917] design Processor_4bit has port An_out[0] driven by constant 0
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 491.309 ; gain = 151.852
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 491.016 ; gain = 150.820
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -92,14 +81,16 @@ Report Check Netlist:
 +------+------------------+-------+---------+-------+------------------+
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin Decoder_2_to_4_1:I[1] to constant 0 [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd:59]
+WARNING: [Synth 8-3295] tying undriven pin Decoder_2_to_4_1:I[0] to constant 0 [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd:59]
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 491.309 ; gain = 151.852
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 491.016 ; gain = 150.820
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 491.309 ; gain = 151.852
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 491.016 ; gain = 150.820
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -107,6 +98,204 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 Processing XDC Constraints
 Initializing timing engine
 Parsing XDC File [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc]
+WARNING: [Vivado 12-584] No ports matched 'Data_write[0]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data_write[0]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data_write[1]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data_write[1]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data_write[2]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data_write[2]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data_write[3]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data_write[3]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data_write[4]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data_write[4]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data_write[5]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data_write[5]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data_write[6]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data_write[6]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data_write[7]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data_write[7]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data_write[8]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data_write[8]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data_write[9]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data_write[9]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data_write[10]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data_write[10]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data_write[11]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Data_write[11]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RegSel[0]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RegSel[0]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RegSel[1]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RegSel[1]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RegSel[2]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RegSel[2]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Run'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Run'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[0]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[0]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[1]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[1]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[2]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[2]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[3]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[3]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[4]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[4]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[5]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[5]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[6]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[6]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[7]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[7]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[8]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[8]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[9]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[9]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[10]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[10]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[11]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Command[11]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Flags[2]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Flags[2]'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Upload'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:113]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:113]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Upload'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:114]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:114]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ResRB'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:115]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:115]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ResRB'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:116]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:116]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Step'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:117]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:117]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Step'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:118]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:118]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ResRAM'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:119]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:119]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ResRAM'. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:120]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:120]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
 Finished Parsing XDC File [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Processor_4bit_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/Processor_4bit_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
@@ -115,28 +304,27 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 822.316 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 820.840 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 822.316 ; gain = 482.859
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 820.840 ; gain = 480.645
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 822.316 ; gain = 482.859
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 820.840 ; gain = 480.645
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 822.316 ; gain = 482.859
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 820.840 ; gain = 480.645
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "clk_div" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "digit_select" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5544] ROM "Seg7" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sevenSegment_ROM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 822.316 ; gain = 482.859
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 820.840 ; gain = 480.645
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -150,32 +338,22 @@ Start RTL Component Statistics
 Detailed RTL Component Info : 
 +---Adders : 
 	   2 Input     25 Bit       Adders := 1     
-	   2 Input     16 Bit       Adders := 1     
 	   2 Input      3 Bit       Adders := 1     
-	   2 Input      2 Bit       Adders := 1     
 +---XORs : 
 	   3 Input      1 Bit         XORs := 4     
 	   2 Input      1 Bit         XORs := 1     
 +---Registers : 
 	               25 Bit    Registers := 1     
-	               16 Bit    Registers := 1     
-	               12 Bit    Registers := 8     
-	                7 Bit    Registers := 1     
-	                4 Bit    Registers := 9     
+	                4 Bit    Registers := 8     
 	                3 Bit    Registers := 1     
-	                2 Bit    Registers := 1     
 	                1 Bit    Registers := 1     
 +---Muxes : 
 	   2 Input     25 Bit        Muxes := 1     
-	   2 Input     16 Bit        Muxes := 1     
-	   2 Input     12 Bit        Muxes := 8     
+	   8 Input     12 Bit        Muxes := 1     
 	  17 Input      7 Bit        Muxes := 1     
-	   5 Input      7 Bit        Muxes := 1     
 	   2 Input      4 Bit        Muxes := 2     
-	   4 Input      4 Bit        Muxes := 2     
 	   2 Input      3 Bit        Muxes := 1     
-	   2 Input      2 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 10    
+	   2 Input      1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -216,30 +394,14 @@ Detailed RTL Component Info :
 	                3 Bit    Registers := 1     
 +---Muxes : 
 	   2 Input      3 Bit        Muxes := 1     
-Module REG_12bit 
+Module ProgramROM 
 Detailed RTL Component Info : 
-+---Registers : 
-	               12 Bit    Registers := 1     
 +---Muxes : 
-	   2 Input     12 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 1     
-Module IO_System 
+	   8 Input     12 Bit        Muxes := 1     
+Module Seg7 
 Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input     16 Bit       Adders := 1     
-	   2 Input      2 Bit       Adders := 1     
-+---Registers : 
-	               16 Bit    Registers := 1     
-	                7 Bit    Registers := 1     
-	                4 Bit    Registers := 1     
-	                2 Bit    Registers := 1     
 +---Muxes : 
-	   2 Input     16 Bit        Muxes := 1     
 	  17 Input      7 Bit        Muxes := 1     
-	   5 Input      7 Bit        Muxes := 1     
-	   4 Input      4 Bit        Muxes := 2     
-	   2 Input      2 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
 ---------------------------------------------------------------------------------
@@ -257,14 +419,41 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
 INFO: [Synth 8-5546] ROM "Slow_Clock_0/clk_div" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "IO_System_0_0/digit_select" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-3886] merging instance 'Register_Bank_0/REG0/Y_reg[2]' (FDR) to 'Register_Bank_0/REG0/Y_reg[0]'
+WARNING: [Synth 8-3917] design Processor_4bit has port An_out[3] driven by constant 1
+WARNING: [Synth 8-3917] design Processor_4bit has port An_out[2] driven by constant 1
+WARNING: [Synth 8-3917] design Processor_4bit has port An_out[1] driven by constant 1
+WARNING: [Synth 8-3917] design Processor_4bit has port An_out[0] driven by constant 0
+INFO: [Synth 8-3886] merging instance 'Register_Bank_0/REG7/Y_reg[3]' (FDRE) to 'Register_Bank_0/REG6/Y_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Register_Bank_0/REG6/Y_reg[3]' (FDRE) to 'Register_Bank_0/REG4/Y_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Register_Bank_0/REG5/Y_reg[3]' (FDRE) to 'Register_Bank_0/REG4/Y_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Register_Bank_0/REG4/Y_reg[3] )
+INFO: [Synth 8-3886] merging instance 'Register_Bank_0/REG0/Y_reg[3]' (FDR) to 'Register_Bank_0/REG0/Y_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Register_Bank_0/REG7/Y_reg[2]' (FDRE) to 'Register_Bank_0/REG6/Y_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Register_Bank_0/REG6/Y_reg[2]' (FDRE) to 'Register_Bank_0/REG4/Y_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Register_Bank_0/REG5/Y_reg[2]' (FDRE) to 'Register_Bank_0/REG4/Y_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Register_Bank_0/REG4/Y_reg[2] )
+INFO: [Synth 8-3886] merging instance 'Register_Bank_0/REG0/Y_reg[2]' (FDR) to 'Register_Bank_0/REG0/Y_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Register_Bank_0/REG7/Y_reg[1]' (FDRE) to 'Register_Bank_0/REG6/Y_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Register_Bank_0/REG6/Y_reg[1]' (FDRE) to 'Register_Bank_0/REG4/Y_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Register_Bank_0/REG5/Y_reg[1]' (FDRE) to 'Register_Bank_0/REG4/Y_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Register_Bank_0/REG4/Y_reg[1] )
 INFO: [Synth 8-3886] merging instance 'Register_Bank_0/REG0/Y_reg[1]' (FDR) to 'Register_Bank_0/REG0/Y_reg[0]'
-INFO: [Synth 8-3886] merging instance 'Register_Bank_0/REG0/Y_reg[0]' (FDR) to 'Register_Bank_0/REG0/Y_reg[3]'
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Register_Bank_0/REG0/Y_reg[3] )
-WARNING: [Synth 8-3332] Sequential element (Register_Bank_0/REG0/Y_reg[3]) is unused and will be removed from module Processor_4bit.
+INFO: [Synth 8-3886] merging instance 'Register_Bank_0/REG7/Y_reg[0]' (FDRE) to 'Register_Bank_0/REG6/Y_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Register_Bank_0/REG6/Y_reg[0]' (FDRE) to 'Register_Bank_0/REG4/Y_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Register_Bank_0/REG5/Y_reg[0]' (FDRE) to 'Register_Bank_0/REG4/Y_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Register_Bank_0/REG4/Y_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Register_Bank_0/REG0/Y_reg[0] )
+WARNING: [Synth 8-3332] Sequential element (Register_Bank_0/REG0/Y_reg[0]) is unused and will be removed from module Processor_4bit.
+WARNING: [Synth 8-3332] Sequential element (Register_Bank_0/REG4/Y_reg[3]) is unused and will be removed from module Processor_4bit.
+WARNING: [Synth 8-3332] Sequential element (Register_Bank_0/REG4/Y_reg[2]) is unused and will be removed from module Processor_4bit.
+WARNING: [Synth 8-3332] Sequential element (Register_Bank_0/REG4/Y_reg[1]) is unused and will be removed from module Processor_4bit.
+WARNING: [Synth 8-3332] Sequential element (Register_Bank_0/REG4/Y_reg[0]) is unused and will be removed from module Processor_4bit.
+WARNING: [Synth 8-3332] Sequential element (Register_Bank_0/REG3/Y_reg[3]) is unused and will be removed from module Processor_4bit.
+WARNING: [Synth 8-3332] Sequential element (Register_Bank_0/REG3/Y_reg[2]) is unused and will be removed from module Processor_4bit.
+WARNING: [Synth 8-3332] Sequential element (Register_Bank_0/REG3/Y_reg[1]) is unused and will be removed from module Processor_4bit.
+WARNING: [Synth 8-3332] Sequential element (Register_Bank_0/REG3/Y_reg[0]) is unused and will be removed from module Processor_4bit.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 822.316 ; gain = 482.859
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 820.840 ; gain = 480.645
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -276,13 +465,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 822.316 ; gain = 482.859
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 820.840 ; gain = 480.645
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 826.855 ; gain = 487.398
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 823.699 ; gain = 483.504
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -294,7 +483,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 837.773 ; gain = 498.316
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 833.766 ; gain = 493.570
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -318,7 +507,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 837.773 ; gain = 498.316
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 833.766 ; gain = 493.570
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -331,7 +520,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 837.773 ; gain = 498.316
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 833.766 ; gain = 493.570
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -343,25 +532,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 837.773 ; gain = 498.316
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 833.766 ; gain = 493.570
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 837.773 ; gain = 498.316
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 833.766 ; gain = 493.570
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 837.773 ; gain = 498.316
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 833.766 ; gain = 493.570
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 837.773 ; gain = 498.316
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 833.766 ; gain = 493.570
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -377,56 +566,38 @@ Report Cell Usage:
 +------+-------+------+
 |      |Cell   |Count |
 +------+-------+------+
-|1     |BUFG   |     2|
-|2     |CARRY4 |    10|
-|3     |LUT1   |     4|
-|4     |LUT2   |     5|
-|5     |LUT3   |     6|
-|6     |LUT4   |    22|
-|7     |LUT5   |    37|
-|8     |LUT6   |    47|
-|9     |MUXF7  |    21|
-|10    |FDCE   |     3|
-|11    |FDRE   |   155|
-|12    |FDSE   |    24|
-|13    |IBUF   |    22|
-|14    |OBUF   |    26|
+|1     |BUFG   |     1|
+|2     |CARRY4 |     6|
+|3     |LUT1   |     1|
+|4     |LUT3   |     6|
+|5     |LUT4   |    13|
+|6     |LUT5   |    11|
+|7     |LUT6   |    10|
+|8     |FDCE   |     3|
+|9     |FDRE   |    34|
+|10    |IBUF   |     2|
+|11    |OBUF   |    17|
 +------+-------+------+
 
 Report Instance Areas: 
 +------+--------------------+----------------+------+
 |      |Instance            |Module          |Cells |
 +------+--------------------+----------------+------+
-|1     |top                 |                |   384|
-|2     |  IO_System_0_0     |IO_System       |    52|
-|3     |  Program_RAM_0     |Program_RAM     |   160|
-|4     |    REG_12bit_0     |REG_12bit       |    12|
-|5     |    REG_12bit_1     |REG_12bit_6     |    15|
-|6     |    REG_12bit_2     |REG_12bit_7     |    14|
-|7     |    REG_12bit_3     |REG_12bit_8     |    59|
-|8     |    REG_12bit_4     |REG_12bit_9     |    12|
-|9     |    REG_12bit_5     |REG_12bit_10    |    12|
-|10    |    REG_12bit_6     |REG_12bit_11    |    12|
-|11    |    REG_12bit_7     |REG_12bit_12    |    24|
-|12    |  Program_counter_0 |Program_counter |    14|
-|13    |  Register_Bank_0   |Register_Bank   |    67|
-|14    |    REG1            |REG             |     4|
-|15    |    REG2            |REG_0           |     4|
-|16    |    REG3            |REG_1           |    30|
-|17    |    REG4            |REG_2           |     4|
-|18    |    REG5            |REG_3           |     4|
-|19    |    REG6            |REG_4           |     4|
-|20    |    REG7            |REG_5           |    17|
-|21    |  Slow_Clock_0      |Slow_Clock      |    41|
+|1     |top                 |                |   104|
+|2     |  Program_counter_0 |Program_counter |    10|
+|3     |  Register_Bank_0   |Register_Bank   |    33|
+|4     |    REG1            |REG             |    23|
+|5     |    REG2            |REG_0           |    10|
+|6     |  Slow_Clock_0      |Slow_Clock      |    41|
 +------+--------------------+----------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 837.773 ; gain = 498.316
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 833.766 ; gain = 493.570
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 837.773 ; gain = 167.309
-Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 837.773 ; gain = 498.316
+Synthesis finished with 0 errors, 0 critical warnings and 13 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 833.766 ; gain = 163.746
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 833.766 ; gain = 493.570
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 53 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
@@ -434,10 +605,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-85 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+83 Infos, 86 Warnings, 66 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 837.773 ; gain = 510.289
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 835.438 ; gain = 507.371
 INFO: [Common 17-1381] The checkpoint 'C:/Users/This PC/vivado_projects/Nanoprocessor_Reprogrammable/Nanoprocessor_Reprogrammable.runs/synth_1/Processor_4bit.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Processor_4bit_utilization_synth.rpt -pb Processor_4bit_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 837.773 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Mon May 26 12:04:30 2025...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 835.438 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Jun  3 10:58:51 2025...

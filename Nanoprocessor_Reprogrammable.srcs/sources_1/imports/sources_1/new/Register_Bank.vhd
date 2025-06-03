@@ -18,7 +18,6 @@
 -- 
 ----------------------------------------------------------------------------------
 
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -34,7 +33,6 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity Register_Bank is
     Port ( Data_in : in STD_LOGIC_VECTOR (3 downto 0);
            RegEn : in STD_LOGIC_VECTOR (2 downto 0);
-           RegWEn : in STD_LOGIC;
            Res : in STD_LOGIC;
            Clk : in STD_LOGIC;
            Data_out_0, Data_out_1, Data_out_2, Data_out_3, Data_out_4, Data_out_5, Data_out_6, Data_out_7 : out STD_LOGIC_VECTOR (3 downto 0));
@@ -52,7 +50,6 @@ end COMPONENT;
 
 COMPONENT Decoder_3_to_8
     Port ( I : in STD_LOGIC_VECTOR (2 downto 0);
-           En: in STD_LOGIC;
            Y : out STD_LOGIC_VECTOR (7 downto 0));
 end COMPONENT;
 
@@ -63,7 +60,6 @@ begin
 Decoder_3_to_8_0:Decoder_3_to_8
 port map(
 I => RegEn,
-En => RegWEn,
 Y => En
 );
 

@@ -37,7 +37,6 @@ entity AddSub_4bit is
            Op : in STD_LOGIC;
            Q : out STD_LOGIC_VECTOR (3 downto 0);
            Overflow : out STD_LOGIC;
-           Cout: out STD_LOGIC;
            Zero : out STD_LOGIC);
 end AddSub_4bit;
 
@@ -57,7 +56,6 @@ begin
                   (B_xor(i) AND C(i));
     end generate;
     
-    Cout <= C(4);
     Q <= SUM;
     Zero <= NOT (SUM(0) OR SUM(1) OR SUM(2) OR SUM(3));
     Overflow <= C(4) XOR C(3);

@@ -21,10 +21,8 @@ Compiling architecture behavioral of entity xil_defaultlib.AddSub_4bit [addsub_4
 Compiling architecture behavioral of entity xil_defaultlib.MUX_2_to_1_4bit [mux_2_to_1_4bit_default]
 Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
 Compiling architecture behavioral of entity xil_defaultlib.Program_counter [program_counter_default]
-Compiling architecture behavioral of entity xil_defaultlib.MUX_8_to_1_12bit [mux_8_to_1_12bit_default]
-Compiling architecture behavioral of entity xil_defaultlib.REG_12bit [reg_12bit_default]
-Compiling architecture behavioral of entity xil_defaultlib.Program_RAM [program_ram_default]
-Compiling architecture behavioral of entity xil_defaultlib.IO_System [io_system_default]
+Compiling architecture behavioral of entity xil_defaultlib.ProgramROM [programrom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Seg7 [seg7_default]
 Compiling architecture behavioral of entity xil_defaultlib.Processor_4bit [processor_4bit_default]
 Compiling architecture behavioral of entity xil_defaultlib.processor_4bit_tb
 Built simulation snapshot Processor_4bit_tb_behav

@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
-| Date             : Mon May 26 12:05:53 2025
+| Date             : Tue Jun  3 12:06:17 2025
 | Host             : Rathish running 64-bit major release  (build 9200)
 | Command          : report_power -file Processor_4bit_power_routed.rpt -pb Processor_4bit_power_summary_routed.pb -rpx Processor_4bit_power_routed.rpx
 | Design           : Processor_4bit
@@ -30,7 +30,7 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.105        |
+| Total On-Chip Power (W)  | 0.104        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
 | Dynamic (W)              | 0.033        |
@@ -53,17 +53,17 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        3 |       --- |             --- |
-| Slice Logic    |    <0.001 |      345 |       --- |             --- |
-|   LUT as Logic |    <0.001 |      104 |     20800 |            0.50 |
+| Slice Logic    |    <0.001 |      348 |       --- |             --- |
+|   LUT as Logic |    <0.001 |      111 |     20800 |            0.53 |
 |   Register     |    <0.001 |      182 |     41600 |            0.44 |
 |   CARRY4       |    <0.001 |       10 |      8150 |            0.12 |
 |   F7/F8 Muxes  |    <0.001 |       21 |     32600 |            0.06 |
 |   Others       |     0.000 |       10 |       --- |             --- |
 |   BUFG         |     0.000 |        1 |        32 |            3.13 |
-| Signals        |     0.001 |      294 |       --- |             --- |
+| Signals        |     0.001 |      297 |       --- |             --- |
 | I/O            |     0.030 |       48 |       106 |           45.28 |
 | Static Power   |     0.072 |          |           |                 |
-| Total          |     0.105 |          |           |                 |
+| Total          |     0.104 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -145,13 +145,13 @@ Table of Contents
 | Processor_4bit      |     0.033 |
 |   IO_System_0_0     |    <0.001 |
 |   Program_RAM_0     |    <0.001 |
-|     REG_12bit_0     |     0.000 |
+|     REG_12bit_0     |    <0.001 |
 |     REG_12bit_1     |    <0.001 |
 |     REG_12bit_2     |    <0.001 |
 |     REG_12bit_3     |    <0.001 |
-|     REG_12bit_4     |     0.000 |
-|     REG_12bit_5     |     0.000 |
-|     REG_12bit_6     |     0.000 |
+|     REG_12bit_4     |    <0.001 |
+|     REG_12bit_5     |    <0.001 |
+|     REG_12bit_6     |    <0.001 |
 |     REG_12bit_7     |    <0.001 |
 |   Program_counter_0 |    <0.001 |
 |   Register_Bank_0   |    <0.001 |

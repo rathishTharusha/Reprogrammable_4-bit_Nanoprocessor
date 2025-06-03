@@ -109,6 +109,7 @@ end COMPONENT;
 
 COMPONENT Program_RAM
     Port ( Address : in STD_LOGIC_VECTOR (2 downto 0);
+       WAddress : in STD_LOGIC_VECTOR (2 downto 0);
        Data_write: in STD_LOGIC_VECTOR (11 downto 0);
        W_en: in STD_LOGIC;
        Clk: in STD_LOGIC;
@@ -142,7 +143,7 @@ COMPONENT IO_System
 end COMPONENT;
 
 SIGNAl LoadSel, RegWEn, Op, JFlag, Over, Zero, Overflow, Slow_clk, Cout: std_logic;
-SIGNAL RegEn, RegSelA, RegSelB, JAdr, Address, Cnt_in, Cnt_out : std_logic_vector(2 downto 0);
+SIGNAL RegEn, RegSelA, RegSelB, JAdr, Address, WAddress, Cnt_in, Cnt_out : std_logic_vector(2 downto 0);
 SIGNAL D0, D1, D2, D3, D4, D5, D6, D7, Data_in, RegA, RegB, RegS, ImVal, REG : std_logic_vector(3 downto 0);
 SIGNAL Instruction : std_logic_vector(11 downto 0);
 
@@ -258,6 +259,7 @@ Program_counter_0: Program_counter
 
 Program_RAM_0:Program_RAM 
     port map ( Address => Address,
+       WAddress => WAddress, 
        Data_write => Data_write,
        W_en => Upload,
        Clk => Slow_clk,
@@ -274,6 +276,7 @@ IO_System_0_0: IO_System
            seg  => Data_seg
 );
 
+WAddress  <= RegSel when (upload = '1') else Address;
 RegWEn <= Run OR Step;
 
 Flags(0) <= Zero;

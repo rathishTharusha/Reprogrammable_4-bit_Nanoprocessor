@@ -33,6 +33,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity Program_RAM is
     Port ( Address : in STD_LOGIC_VECTOR (2 downto 0);
+       WAddress : in STD_LOGIC_VECTOR (2 downto 0);
        Data_write: in STD_LOGIC_VECTOR (11 downto 0);
        W_en: in STD_LOGIC;
        Clk: in STD_LOGIC;
@@ -75,8 +76,8 @@ SIGNAL write: std_logic_vector(7 downto 0);
 
 begin
 
-Decoder_3_to_8_0: Decoder_3_to_8
-    port map ( I => Address,
+Decoder_3_to_8_1: Decoder_3_to_8
+    port map ( I => WAddress,
            En => W_en,
            Y => write
 );
